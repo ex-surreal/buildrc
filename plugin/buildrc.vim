@@ -7,7 +7,7 @@ endif
 if !exists("*RunCode")
     function RunCode()
         if "%:e" == 'cpp'
-            call CPPCompileAndRun()
+            :call CPPCompileAndRun()
         endif
     endfunction
 endif
