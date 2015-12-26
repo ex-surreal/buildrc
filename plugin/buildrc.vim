@@ -10,5 +10,5 @@ if !exists("*RunCode")
             call CPPCompileAndRun()
         endif
     endfunction
-    command !RunCode call RunCode()
+    command !CmdRunCode call RunCode()
 endif
